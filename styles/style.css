@@ -255,7 +255,10 @@ button, .form-button {
         margin: 0;
         display: flex;
         flex-wrap: wrap;
+<<<<<<< HEAD
         /* grid-template-columns: 1fr 1fr; */
+=======
+>>>>>>> 272026340115664af401f0cd5d1d37d9d453b4da
         gap: 20px;
     }
 }
