@@ -230,7 +230,17 @@ button, .form-button {
     margin-bottom: 30px;
     animation: fadeIn 1s ease-out;
 }
-
+@media screen and (max-width:768px) {
+    .packages ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        /* grid-template-columns: 1fr 1fr; */
+        gap: 20px;
+    }
+}
 .packages h3 {
     font-size: 1.8rem;
     color: #333;
